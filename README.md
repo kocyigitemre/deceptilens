@@ -7,7 +7,7 @@ We propose "DeceptiLens" as a robust and transparent DP detection approach. We e
 ### 1. Input data
 All of the collected data is available under the "data" folder.
 ### 2. Model's classification and explanations
-Classification of the input data with explanations.
+Classification of the input data with explanations is available under the "model-output" folder.
 ### 3. Experts' classification
 Classification of the input data by experts. Each example was evaluated by three different experts. 
 
