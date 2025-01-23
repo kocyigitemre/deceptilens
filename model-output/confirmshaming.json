@@ -1,0 +1,65 @@
+[
+    {
+        "screenshot": "CO_4.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "Explanation.\n\n1. Measurable Features:\n   - Button Text: \"Yes! I'd like the discount\" vs. \"No thanks, I like full price\"\n   - Button Size: The \"Yes\" button is larger and more prominent.\n   - Emotional Language: The \"No thanks\" option uses language that implies a negative self-assessment.\n\n2. Assessment:\n   - The \"Yes\" button is visually more prominent, which can steer users towards selecting it.\n   - The \"No thanks\" option uses confirmshaming by implying that choosing not to take the discount is irrational or undesirable, which can guilt users into opting in.\n\n3. Conclusion:\n   - This design uses confirmshaming, a dark pattern that guilts the user into opting in by framing the opt-out choice negatively. This aligns with the definition of confirmshaming as described in Mathur et al., CHI \u201921, May 8\u201313, 2021, Yokohama, Japan."
+        }
+    },
+    {
+        "screenshot": "CO_5.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "Explanation.\n\n1. Measurable Features:\n   - Button Text: \"YUP!\" vs. \"No, thanks, I'd rather pay full price.\"\n   - Button Size: The \"YUP!\" button is larger and more prominent.\n   - Color Contrast: The \"YUP!\" button is in a bright yellow, while the decline option is in a smaller, less noticeable font.\n\n2. Assessment:\n   - The language used in the decline option (\"I'd rather pay full price\") is designed to make the user feel guilty or foolish for not opting in, which is a characteristic of confirmshaming.\n   - The visual prominence of the \"YUP!\" button over the decline option suggests an attempt to steer users towards opting in.\n\n3. Conclusion:\n   - The design uses confirmshaming by framing the opt-out choice in a way that invokes shame or guilt, steering users towards opting in. This aligns with the definition of confirmshaming as described in \"CHI \u201921, May 8\u201313, 2021, Yokohama, Japan, Mathur et al.\""
+        }
+    },
+    {
+        "screenshot": "CO_7.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "Explanation.\n\n1. Measurable Features:\n   - Text: \"WAIT, DON'T GO YET!\" and \"No thanks, I don't want to look my best.\"\n   - Button Size: \"GET STARTED\" button is larger and more prominent than the \"No thanks\" link.\n   - Color Contrast: The \"GET STARTED\" button is in a bold color, while the \"No thanks\" link is less noticeable.\n\n2. Assessment:\n   - The use of emotional language in \"WAIT, DON'T GO YET!\" and \"No thanks, I don't want to look my best\" is designed to invoke a sense of urgency and guilt, which is characteristic of confirmshaming.\n   - The visual prominence of the \"GET STARTED\" button over the \"No thanks\" link makes it more likely for users to opt-in, even if they initially intended to decline.\n\n3. Conclusion:\n   - This interface uses confirmshaming by framing the opt-out choice in a way that could make users feel guilty or less confident about their decision, steering them towards opting in. This aligns with the definition of confirmshaming as described in CHI \u201921, May 8\u201313, 2021, Yokohama, Japan, Mathur et al."
+        }
+    },
+    {
+        "screenshot": "CO_6.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "Explanation.\n\n1. Measurable Features:\n   - Button Text: \"Get Updates Weekly\" vs. \"I Don't Like Discounts\"\n   - Emotional Language: \"We're sad to see you go.\"\n   - Button Size and Color: The \"Get Updates Weekly\" button is more prominent and visually appealing.\n\n2. Assessment:\n   - The use of emotional language (\"We're sad to see you go\") is intended to guilt the user into staying subscribed, which is a characteristic of confirmshaming.\n   - The option to unsubscribe is framed negatively (\"I Don't Like Discounts\"), implying that the user is missing out or making a poor choice.\n   - The visual prominence of the \"Get Updates Weekly\" button over the unsubscribe option further nudges the user towards staying subscribed.\n\n3. Conclusion:\n   - This interface uses confirmshaming by employing emotional language and visual design to manipulate the user's decision, aligning with the definition of dark patterns as described by Mathur et al. in CHI \u201921, May 8\u201313, 2021, Yokohama, Japan."
+        }
+    },
+    {
+        "screenshot": "CO_2.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Text on the decline option: \"No thanks. I REALLY hate saving money.\"\n   - Visual prominence: The decline option is less visually prominent compared to the \"Sign Up\" button.\n   - Emotional language: The decline option uses emotionally charged language.\n\n2. Assessment:\n   - The decline option uses confirmshaming by implying that not signing up equates to hating saving money. This is a form of emotional manipulation designed to guilt the user into opting in.\n   - The \"Sign Up\" button is more visually prominent, which can steer users towards that option.\n\n3. Conclusion:\n   - The design uses confirmshaming, a dark pattern that guilts the user into opting in, as described in the CHI \u201921 study by Mathur et al."
+        }
+    },
+    {
+        "screenshot": "CS_FP_1.png",
+        "analysis_result": {
+            "label": "False",
+            "explanation": "Explanation.\n\n1. Measurable Features:\n   - Visual Entity: \"Subscribe Now\" button.\n   - Linguistic Entity: Text offering a 15% discount for signing up.\n   - Absence of alternative options (e.g., \"No, thanks\" or \"Close\" button).\n\n2. Assessment:\n   - The pop-up offers a clear incentive (15% off) for signing up, which is a common marketing strategy.\n   - There is no visible attempt to shame or guilt the user into signing up, which would indicate confirmshaming.\n   - The \"X\" button in the corner allows users to close the pop-up without subscribing, providing an easy opt-out.\n\n3. Conclusion:\n   - The design does not employ deceptive or manipulative tactics characteristic of dark patterns, such as confirmshaming. The user is not pressured or misled into subscribing."
+        }
+    },
+    {
+        "screenshot": "CO_3.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Visual Entity: Image of a crying bird.\n   - Linguistic Entity: Text stating \"Language Bird is crying.\"\n   - Linguistic Entity: Text stating \"Learn Italian today or he will eat a poison loaf of bread.\"\n   - Linguistic Entity: Text stating \"The next email will be a funeral e-vite.\"\n\n2. Assessment:\n   - The image of the crying bird is designed to evoke an emotional response, potentially guilt or sympathy.\n   - The text uses emotionally charged language (\"crying,\" \"poison loaf of bread,\" \"funeral e-vite\") to create a sense of urgency and guilt.\n   - This combination of imagery and language is an example of confirmshaming, where the user is guilted into taking an action (learning Italian) to prevent a negative outcome for the bird.\n\n3. Conclusion:\n   - The design uses emotional manipulation to influence user behavior, fitting the definition of confirmshaming as described in \"CHI \u201921, May 8\u201313, 2021, Yokohama, Japan\" by Mathur et al."
+        }
+    },
+    {
+        "screenshot": "CO_1.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Text of the decline option: \"no, I prefer to bleed to death\"\n   - Text of the allow option: \"Allow\"\n   - Emotional language used in the decline option.\n\n2. Assessment:\n   - The decline option uses emotionally charged language (\"I prefer to bleed to death\") to guilt or shame the user into opting in for notifications. This is a classic example of confirmshaming, where the language is designed to manipulate the user's emotions and steer them towards allowing notifications.\n   - The allow option is straightforward and lacks any emotional manipulation, creating an asymmetry in how the choices are presented.\n\n3. Conclusion:\n   - The use of emotionally manipulative language in the decline option is a clear instance of the confirmshaming dark pattern. This pattern is described as \"the act of guilting the user into opting in to something\" (Mathur et al., CHI \u201921, May 8\u201313, 2021, Yokohama, Japan)."
+        }
+    },
+    {
+        "screenshot": "CS_FP_2.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "Explanation.\n\n1. Measurable Features:\n   - Button Text: \"GET 15% OFF\" vs. \"DECLINE 15% OFF\"\n   - Button Size: The \"GET 15% OFF\" button is larger and more prominent.\n   - Emotional Language: The use of \"highest offer\" and \"15% OFF\" creates a sense of urgency and value.\n\n2. Assessment:\n   - The \"GET 15% OFF\" button is visually more prominent, encouraging users to opt-in.\n   - The \"DECLINE 15% OFF\" button uses language that may invoke a sense of loss or missing out, which is a characteristic of confirmshaming.\n   - The design and language aim to guilt or pressure the user into providing their email for the discount.\n\n3. Conclusion:\n   - This interface uses confirmshaming by framing the opt-out choice in a way that may make users feel they are losing out on a valuable offer. This aligns with the definition of confirmshaming as described in Mathur et al., CHI \u201921, May 8\u201313, 2021, Yokohama, Japan."
+        }
+    }
+]

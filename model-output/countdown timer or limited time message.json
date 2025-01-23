@@ -1,0 +1,58 @@
+[
+    {
+        "screenshot": "CT_4.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "Explanation\n\n1. Measurable Features:\n   - Visual Entity: Countdown timer displaying \"08:54:31\" (Hours:Minutes:Seconds).\n   - Linguistic Entity: Text \"Flash Sale ends in\" and \"SHOP NOW\".\n   - Size and prominence of the countdown timer compared to other elements.\n\n2. Assessment:\n   - The countdown timer creates a sense of urgency by indicating that the flash sale will end soon. This can pressure users into making quick purchasing decisions without fully considering their options.\n   - The timer is a classic example of a dark pattern known as a \"Countdown Timer,\" which uses urgency as a type of social engineering. It suggests that a deal or discount will expire, potentially leading to uninformed purchases.\n\n3. Conclusion:\n   - The presence of the countdown timer aligns with the description of dark patterns that \"use Urgency as a type of Social Engineering to indicate that a deal or discount will expire by displaying a countdown clock or timer\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA, Gray, Santos, Bielova, & Mildner). This can result in users feeling undue urgency and purchasing pressure."
+        }
+    },
+    {
+        "screenshot": "CT_5.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "Explanation\n\n1. Measurable Features:\n   - Countdown Timer: The screenshot displays a countdown timer labeled \"OFFER ENDS IN 00:59:48.\"\n   - Urgency Message: The text suggests urgency with phrases like \"But don\u2019t wait to shop, new season styles have already arrived!\"\n\n2. Assessment:\n   - The presence of a countdown timer is a measurable feature that can create a sense of urgency. According to the definition, \"Countdown Timers use Urgency as a type of Social Engineering to indicate that a deal or discount will expire by displaying a countdown clock or timer, even though the clock or timer is completely fake, disappears, or resets automatically.\"\n   - The urgency message reinforces the pressure to make a quick decision, which can lead to uninformed purchases.\n\n3. Conclusion:\n   - The use of a countdown timer and urgency messaging suggests a dark pattern aimed at creating undue pressure on the user. This aligns with the description of urgency tactics in dark patterns, as noted in the source: \"CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA Gray, Santos, Bielova, & Mildner.\""
+        }
+    },
+    {
+        "screenshot": "CT_6.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "Explanation\n\n1. Measurable Features:\n   - Text \"1 left\" in red, indicating scarcity.\n   - Text \"Sale ends soon\" in red, suggesting urgency.\n   - Absence of a specific deadline for when the sale ends.\n\n2. Assessment:\n   - The use of \"1 left\" creates a sense of scarcity, pressuring the user to make a quick decision.\n   - \"Sale ends soon\" without a specific deadline is a limited time message, creating urgency without clarity.\n   - These elements can lead to undue pressure on the user, potentially resulting in an uninformed purchase.\n\n3. Conclusion:\n   - The screenshot uses urgency and scarcity as social engineering tactics, which are characteristics of dark patterns. According to CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA, \"Limited Time Messages use Urgency as a type of Social Engineering to indicate that a deal or discount will expire soon or be available only for a limited time, but without specifying a specific deadline.\" This can lead to users feeling pressured into making uninformed purchases."
+        }
+    },
+    {
+        "screenshot": "CT_2.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Countdown Timer: The text \"Check out in 8:09\" indicates a countdown timer.\n   - Urgency Message: The timer suggests urgency for checking out.\n\n2. Assessment:\n   - The presence of a countdown timer creates a sense of urgency, pressuring the user to make a purchase decision quickly. This is a characteristic of dark patterns, as it may lead to uninformed purchases.\n   - The timer does not specify what happens if the time runs out, which can be misleading and manipulative.\n\n3. Conclusion:\n   - The use of a countdown timer without clear consequences is a dark pattern. It uses urgency as a type of social engineering to pressure users into making a purchase. This aligns with the description from CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA: \"Countdown Timers use Urgency as a type of Social Engineering to indicate that a deal or discount will expire by displaying a countdown clock or timer... As a result, the user may feel undue urgency and purchasing pressure, leading to their uninformed purchase of a product or service.\""
+        }
+    },
+    {
+        "screenshot": "CT_3.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "Explanation\n\n1. Measurable Features:\n   - Countdown Timer: A visible countdown timer is displayed with the label \"HURRY! SALE ENDS IN:\" showing days, hours, minutes, and seconds.\n   - Urgency Language: The use of the word \"HURRY!\" suggests urgency.\n\n2. Assessment:\n   - The countdown timer is a measurable feature that can create a sense of urgency. It implies that the sale will end soon, pressuring users to make a purchase quickly.\n   - The language used (\"HURRY!\") reinforces this urgency, potentially leading to uninformed purchasing decisions.\n\n3. Conclusion:\n   - The presence of a countdown timer and urgency language fits the description of a dark pattern known as \"Countdown Timers,\" which uses urgency as a type of social engineering. This pattern can lead users to feel undue urgency and purchasing pressure, resulting in uninformed purchases.\n   - As described in CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA, \"Countdown Timers use Urgency as a type of Social Engineering to indicate that a deal or discount will expire by displaying a countdown clock or timer... As a result, the user may feel undue urgency and purchasing pressure, leading to their uninformed purchase of a product or service.\""
+        }
+    },
+    {
+        "screenshot": "CT_1.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Visual Entity: Countdown timer displaying \"00 Days 11 Hrs 59 Mins 46 Sec\".\n   - Linguistic Entity: Text stating \"Hurry up! Sale ending in:\" and \"Sale Ends Once The Timer Hits Zero!\".\n\n2. Assessment:\n   - The presence of a countdown timer suggests urgency, pressuring users to make a purchase decision quickly.\n   - The text reinforces this urgency by implying that the sale will end when the timer reaches zero.\n   - This can be classified as a \"Countdown Timer\" dark pattern, which uses urgency as a type of social engineering to indicate that a deal or discount will expire, potentially leading to uninformed purchases.\n\n3. Conclusion:\n   - The use of a countdown timer and urgent language creates a sense of urgency, which is a characteristic of dark patterns. This aligns with the description from CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA: \"Countdown Timers use Urgency as a type of Social Engineering to indicate that a deal or discount will expire by displaying a countdown clock or timer... As a result, the user may feel undue urgency and purchasing pressure, leading to their uninformed purchase of a product or service.\""
+        }
+    },
+    {
+        "screenshot": "CT_FP_1.png",
+        "analysis_result": {
+            "label": "False",
+            "explanation": "Explanation\n\n1. Measurable Features:\n   - Countdown Timer: \"Resend OTP in 26\" indicates a countdown for when the user can request a new OTP.\n   - Button: \"SUBMIT\" button is clearly visible and labeled.\n\n2. Assessment:\n   - The countdown timer is a standard feature in OTP verification processes to prevent abuse by limiting how often a new OTP can be requested. It does not create undue urgency or pressure for the user to make a purchase or decision.\n   - There is no indication of deceptive, asymmetric, or hidden information. The interface is straightforward and serves its purpose for verification.\n\n3. Conclusion:\n   - The presence of a countdown timer in this context is not a dark pattern. It is a common security measure rather than a manipulative tactic. Therefore, no dark pattern is present in this screenshot."
+        }
+    },
+    {
+        "screenshot": "CT_FP_2.png",
+        "analysis_result": {
+            "label": "False",
+            "explanation": "Explanation\n\n1. Measurable Features:\n   - Countdown Timer: A visible timer set to 59 seconds.\n   - Text: \"Enter the code sent to your mobile phone\" and \"Continue\" button.\n\n2. Assessment:\n   - The countdown timer is a common feature in OTP (One-Time Password) verification processes to enhance security by limiting the time a code is valid. It does not create undue urgency for purchasing or decision-making but rather ensures timely entry for security purposes.\n   - There is no indication of deceptive or manipulative language or design that pressures the user into making a purchase or decision.\n\n3. Conclusion:\n   - The presence of a countdown timer in this context is not a dark pattern. It serves a legitimate security function rather than creating false urgency for a purchase or decision. Therefore, no dark pattern is identified in this screenshot."
+        }
+    }
+]

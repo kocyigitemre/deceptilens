@@ -1,0 +1,58 @@
+[
+    {
+        "screenshot": "SB_FP_2.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - The text \"Just a few left. Order soon.\" is prominently displayed.\n   - The \"Free Shipping for Members\" offer is highlighted, encouraging users to join or sign in.\n\n2. Assessment:\n   - The phrase \"Just a few left. Order soon.\" is an example of a scarcity tactic, which can create a sense of urgency and pressure users into making a purchase decision quickly, potentially without full consideration.\n   - The \"Free Shipping for Members\" offer may encourage users to sign up for a membership, which could involve additional steps or commitments not immediately clear to the user.\n\n3. Conclusion:\n   - The use of scarcity tactics and the promotion of membership benefits can be considered dark patterns as they may pressure users into making hasty decisions or committing to actions without fully understanding the implications. This aligns with the concept of \"Sneaking\" and \"Obstruction\" as described in \"An Ontology of Dark Patterns Knowledge\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA)."
+        }
+    },
+    {
+        "screenshot": "SB_FP_1.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - The \"Protection Plans starting at $14.99\" is prominently displayed with a \"See Options\" button.\n   - The total cost section shows only the subtotal, with shipping and sales tax marked as \"Calculate Above.\"\n\n2. Assessment:\n   - The protection plan is presented in a way that might suggest it is part of the purchase process, potentially leading users to add it unintentionally.\n   - The total cost is not fully disclosed upfront, as shipping and sales tax are not calculated until later. This can mislead users about the final price, a characteristic of \"Drip Pricing\" or \"Hidden Costs.\"\n\n3. Conclusion:\n   - The interface uses \"Sneaking\" by not fully disclosing the total cost initially and potentially leading users to add unwanted items like protection plans. This aligns with the definition of dark patterns as described in \"An Ontology of Dark Patterns Knowledge\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA)."
+        }
+    },
+    {
+        "screenshot": "SB_5.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Button Labels: \"CONFIRM ORDER NOW\" and \"CONFIRM ORDER & CONTINUE SHOPPING\"\n   - Visual prominence: Both buttons are large and similarly styled.\n   - Textual Information: \"Delivery Rebate Click Here\" link.\n   - Price Information: Order total and breakdown.\n\n2. Assessment:\n   - The presence of two similarly styled buttons can lead to confusion, as users might not clearly understand the difference between \"CONFIRM ORDER NOW\" and \"CONFIRM ORDER & CONTINUE SHOPPING.\" This can be seen as a form of Interface Interference, where the interface privileges specific actions over others, potentially leading to unintended actions.\n   - The \"Delivery Rebate Click Here\" link suggests a potential discount or rebate, but it is not clear what the rebate entails or how it affects the total price. This can be considered as Hiding Information, where important details about pricing are not immediately clear, potentially misleading users about the total cost.\n\n3. Conclusion:\n   The design elements in the screenshot exhibit characteristics of dark patterns, specifically Interface Interference and Hiding Information. These patterns can confuse users and obscure important information, leading to unintended actions or misunderstandings about the total cost. \n\nReference: An Ontology of Dark Patterns Knowledge, CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA."
+        }
+    },
+    {
+        "screenshot": "SB_4.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Initial price displayed: $310\n   - Final total price after additional steps: $401.13\n   - Additional fees: Service Fee ($86.13) and Fulfillment Fee ($4.95)\n   - Percentage increase from initial to final price: 29%\n   - Number of steps before final price is revealed: Multiple (including entering personal information)\n\n2. Assessment:\n   - The initial price shown to the user is $310, which does not include additional fees.\n   - The user is required to go through multiple steps, including entering personal information, before the total price is revealed.\n   - The final price is significantly higher (29% increase) than the initially displayed price due to additional fees that were not disclosed upfront.\n\n3. Conclusion:\n   - This scenario fits the definition of \"Drip Pricing, Hidden Costs, or Partitioned Pricing,\" which hides information and uses sneaking to reveal new charges or costs late in the process. This misleads the user about the total price, influencing their purchase decision after they have invested effort.\n   - Reference: \"An Ontology of Dark Patterns Knowledge,\" CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA."
+        }
+    },
+    {
+        "screenshot": "SB_6.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - The breakdown of costs includes \"Order Subtotal,\" \"Standard Delivery,\" \"Care & Handling,\" and \"Tax.\"\n   - The total cost is prominently displayed, but additional costs like \"Care & Handling\" are less common and might not be expected by users.\n   - The presence of a \"Savings Today\" line suggests a discount, but it is unclear how this is applied or calculated.\n   - A \"Delivery Rebate\" offer is mentioned, but details are hidden behind a \"Learn More\" link.\n\n2. Assessment:\n   - The inclusion of \"Care & Handling\" as a separate line item can be considered a form of \"Drip Pricing,\" where additional costs are revealed late in the process, potentially misleading users about the total cost.\n   - The \"Savings Today\" line may use \"Reference Pricing\" by implying a discount without clear context, making the price appear more attractive.\n   - The \"Delivery Rebate\" offer requires further action to understand, which can be seen as \"Hiding Information,\" as users must click to learn more about the rebate.\n\n3. Conclusion:\n   - The screenshot exhibits characteristics of dark patterns, specifically \"Drip Pricing\" and \"Reference Pricing,\" which hide or obscure the true cost and savings, potentially misleading users. This aligns with the definitions from \"An Ontology of Dark Patterns Knowledge\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA)."
+        }
+    },
+    {
+        "screenshot": "SB_3.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - The presence of an additional item, \"SportsDirect Fantastic Value Magazine and Free Giant Mug,\" in the cart.\n   - The item is listed with a price of \u00a31.00.\n   - The item is not clearly marked as optional or easily removable.\n\n2. Assessment:\n   - The additional item appears to be added to the cart without explicit consent from the user, which is indicative of the \"Sneak into Basket\" dark pattern.\n   - This pattern involves hiding information and using sneaking tactics to add unwanted items to a user's shopping cart without their consent, leading to unintentional purchases.\n\n3. Conclusion:\n   - The screenshot displays a \"Sneak into Basket\" dark pattern, as it includes an unwanted item in the cart that the user may not have intended to purchase. This aligns with the definition from \"An Ontology of Dark Patterns Knowledge\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA), which describes this tactic as hiding information and using sneaking to add items to a cart without user consent."
+        }
+    },
+    {
+        "screenshot": "SB_2.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Presence of an additional item (\"Greeting Card Service\") in the shopping cart.\n   - Lack of user action or indication that the user explicitly added the additional item.\n\n2. Assessment:\n   - The \"Greeting Card Service\" appears in the shopping cart without clear user consent or action, suggesting it may have been added automatically.\n   - This aligns with the \"Sneak into Basket\" dark pattern, where unwanted items are added to a user's cart without their consent, leading to unintentional purchases.\n\n3. Conclusion:\n   - The screenshot demonstrates a \"Sneak into Basket\" dark pattern, as defined in \"An Ontology of Dark Patterns Knowledge\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA). This pattern hides information and uses sneaking to add unwanted items to a user's shopping cart without their consent."
+        }
+    },
+    {
+        "screenshot": "SB_1.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - The shopping cart includes an item labeled \"Forever Sports Sports Fantastic Value Magazine and Free Giant Mug\" with a note \"(Go to your Bag to remove)\".\n   - The price of this item is \u00a31.00, and it appears to be added without explicit user consent.\n   - The interface requires additional steps to remove this item, as indicated by the note.\n\n2. Assessment:\n   - The presence of an item in the cart that the user did not explicitly add suggests a \"Sneak into Basket\" dark pattern. This pattern involves adding unwanted items to a user's shopping cart without their consent, leading to unintentional purchases.\n   - The requirement to take extra steps to remove the item (\"Go to your Bag to remove\") indicates an obstruction, making it more difficult for the user to complete their intended purchase without the additional item.\n\n3. Conclusion:\n   - This scenario fits the definition of \"Sneak into Basket\" as it hides information and uses sneaking to add unwanted items to a user's cart without consent. This can lead to unintentional purchases, as described in \"An Ontology of Dark Patterns Knowledge\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA)."
+        }
+    }
+]

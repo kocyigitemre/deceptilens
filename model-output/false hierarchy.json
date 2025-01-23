@@ -1,0 +1,58 @@
+[
+    {
+        "screenshot": "FH_FP_1.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Button Labels: \"Manage Settings,\" \"Reject Optional,\" \"Accept All\"\n   - Button Placement: \"Accept All\" is placed prominently alongside other options.\n   - Button Size and Color: All buttons have similar size and color, but the placement and labeling can influence user choice.\n\n2. Assessment:\n   - The \"Accept All\" button is placed prominently, which can lead to a false hierarchy. Users might be more inclined to click \"Accept All\" due to its straightforward label and placement, even if they might prefer to manage settings or reject optional cookies.\n   - The presence of a \"Manage Settings\" button suggests users can customize their choices, but it requires additional steps, which can discourage users from selecting it.\n   - This setup can be seen as manipulating choice architecture by giving visual prominence to the \"Accept All\" option, potentially leading users to make a less informed decision.\n\n3. Conclusion:\n   - The design uses a form of false hierarchy and visual prominence, which can mislead users into accepting all cookies without fully considering other options. This aligns with the concept of manipulating choice architecture as described in \"CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA Gray, Santos, Bielova, & Mildner.\""
+        }
+    },
+    {
+        "screenshot": "FH_FP_2.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Button Size: The \"Accept all\" button and the \"Reject all\" button are visually similar in size.\n   - Button Color: Both buttons are blue, which is a common color for action buttons.\n   - Button Placement: The \"Accept all\" button is placed to the right of the \"Reject all\" button, which is a common placement for primary actions.\n   - Additional Options: The \"More options\" link is less prominent and placed below the main buttons.\n\n2. Assessment:\n   - Visual Prominence: Although the buttons are similar in size and color, the placement of the \"Accept all\" button on the right may suggest it as the primary action, as users often expect the primary action to be on the right.\n   - Hidden Information: The \"More options\" link is less prominent, which may discourage users from exploring further options and understanding the full implications of their choices.\n\n3. Conclusion:\n   - The design subtly encourages users to choose \"Accept all\" by placing it in a position that is often associated with the primary action. Additionally, the less prominent \"More options\" link may lead users to overlook additional privacy settings. This aligns with the concept of \"Manipulating Choice Architecture\" by using \"Visual Prominence\" and \"Hidden Information\" to influence user decisions, as described in CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA by Gray, Santos, Bielova, & Mildner."
+        }
+    },
+    {
+        "screenshot": "FH_4.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Button prominence: The \"No, cancel\" button is visually prominent with a blue color and larger size compared to the unsubscribe links.\n   - Textual hierarchy: The unsubscribe options are less visually prominent and appear as plain text links.\n\n2. Assessment:\n   - The \"No, cancel\" button is designed to stand out more than the unsubscribe options, which are less noticeable. This creates a false hierarchy, where the option to remain subscribed is given visual prominence over the option to unsubscribe.\n   - This design can mislead users into clicking the \"No, cancel\" button, as it appears to be the primary action due to its visual prominence.\n\n3. Conclusion:\n   - This is an example of \"False Hierarchy,\" which manipulates the choice architecture by giving one option visual prominence over others, potentially leading to a decision based on a distorted choice architecture. \n\nQuote: \"False Hierarchy Manipulates the Choice Architecture, using Interface Interference to give one or more options visual or interactive prominence over others, particularly where items should be in parallel rather than hierarchical.\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA, Gray, Santos, Bielova, & Mildner)"
+        }
+    },
+    {
+        "screenshot": "FH_5.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Button Text: \"Keep my subscription\" vs. \"Cancel my subscription\"\n   - Button Color: \"Keep my subscription\" is orange, \"Cancel my subscription\" is gray.\n   - Button Size: Both buttons appear to be the same size.\n   - Preselected Option: \"I just wanted one\" is preselected.\n   - Additional Text: Persuasive text appears when \"I just wanted one\" is selected.\n\n2. Assessment:\n   - **Visual Prominence**: The \"Keep my subscription\" button is visually prominent due to its bright orange color compared to the gray \"Cancel my subscription\" button. This can distract users from their original goal of canceling.\n   - **Preselected Option**: The option \"I just wanted one\" is preselected, which may not reflect the user's actual reason for canceling. This can lead to users not changing the option and being influenced by the accompanying persuasive text.\n   - **Emotional or Sensory Manipulation**: The persuasive text under the preselected option attempts to evoke a sense of missing out on future benefits, which can manipulate the user's decision to cancel.\n\n3. Conclusion:\n   The design uses visual prominence and emotional manipulation to influence the user's decision, which aligns with the characteristics of dark patterns. This is an example of manipulating choice architecture, as described in \"Manipulating Choice Architecture\" by Gray, Santos, Bielova, & Mildner (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA)."
+        }
+    },
+    {
+        "screenshot": "FH_6.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - The \"SIGN ME UP\" button is prominently displayed in a bright color, making it visually prominent.\n   - The option to \"Close\" the pop-up is in a smaller, less noticeable font and color.\n   - The text \"By registering you agree to our Terms and Conditions\" is small and less noticeable.\n\n2. Assessment:\n   - **Visual Prominence**: The \"SIGN ME UP\" button is designed to draw attention, while the \"Close\" option is less visible, which can lead users to sign up even if they do not wish to.\n   - **Forced Registration**: The pop-up suggests that registration is necessary to proceed, which may not be the case, potentially misleading users into providing personal information unnecessarily.\n\n3. Conclusion:\n   - The design uses visual prominence to manipulate the choice architecture, making the sign-up option more noticeable and potentially leading users to register when they might not want to. This aligns with the concept of \"Forced Registration\" and \"Visual Prominence\" as described in the literature: \"Manipulating Choice Architecture subverts the user\u2019s expectation that the options presented will support their desired goal\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA, Gray, Santos, Bielova, & Mildner)."
+        }
+    },
+    {
+        "screenshot": "FH_2.png",
+        "analysis_result": {
+            "label": "False",
+            "explanation": "1. Measurable Features:\n   - The presence of an \"unsubscribe\" link.\n   - The clarity and visibility of the \"unsubscribe\" link.\n   - The language used in the message.\n\n2. Assessment:\n   - The \"unsubscribe\" link is present and clearly labeled as \"unsubscribe here,\" making it easy for users to opt out of future emails.\n   - The language used is straightforward and does not contain confusing wording or double negatives.\n   - There is no evidence of hidden information or misleading design elements.\n\n3. Conclusion:\n   - The design does not exhibit characteristics of dark patterns such as hidden information, trick questions, or forced actions. The option to unsubscribe is clearly provided, aligning with user expectations for email communications."
+        }
+    },
+    {
+        "screenshot": "FH_3.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Button Text: \"SHOW ME 14 SIMPLE DINNERS\" vs. \"No thanks, I'll have a microwave dinner tonight\"\n   - Button Size: The \"SHOW ME 14 SIMPLE DINNERS\" button is larger and more prominent.\n   - Button Color: The \"SHOW ME 14 SIMPLE DINNERS\" button is in a bold color, while the \"No thanks\" option is in a smaller, less noticeable font.\n\n2. Assessment:\n   - **Visual Prominence**: The \"SHOW ME 14 SIMPLE DINNERS\" button is visually prominent due to its size and color, drawing more attention than the \"No thanks\" option.\n   - **Emotional or Sensory Manipulation**: The wording of the \"No thanks\" option uses a negative framing (\"I'll have a microwave dinner tonight\"), which may evoke a sense of missing out or making a lesser choice.\n\n3. Conclusion:\n   - The design uses a combination of visual prominence and emotional manipulation to steer users towards entering their email. This aligns with the concept of manipulating choice architecture by giving certain options visual prominence and using emotional cues to influence decision-making.\n\nQuote: \"Visual Prominence Manipulates the Choice Architecture, using Interface Interference to place an element relevant to user goals in visual competition with a more distracting and prominent element.\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA, Gray, Santos, Bielova, & Mildner)"
+        }
+    },
+    {
+        "screenshot": "FH_1.png",
+        "analysis_result": {
+            "label": "True",
+            "explanation": "1. Measurable Features:\n   - Visual prominence: The \"YES\" option is more visually prominent than the \"NO\" option.\n   - Text clarity: The \"YES\" option has bold text, while the \"NO\" option is grayed out.\n   - Button size and color: The \"YES\" button is more noticeable due to its design.\n\n2. Assessment:\n   - The \"YES\" option is given visual prominence through bold text and a more noticeable button design, which can manipulate the user's choice by making it appear as the default or preferred option.\n   - The \"NO\" option is grayed out, making it less visible and potentially discouraging users from selecting it.\n\n3. Conclusion:\n   - This design uses a false hierarchy by giving the \"YES\" option visual prominence over the \"NO\" option, which should be presented equally. This can mislead users into opting in for offers they might not want. \n\nQuote: \"False Hierarchy Manipulates the Choice Architecture, using Interface Interference to give one or more options visual or interactive prominence over others, particularly where items should be in parallel rather than hierarchical.\" (CHI \u201924, May 11\u201316, 2024, Honolulu, HI, USA, Gray, Santos, Bielova, & Mildner)"
+        }
+    }
+]
