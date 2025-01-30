@@ -12,3 +12,11 @@ Classification of the input data with explanations is available under the "model
 Classification of the input data by experts. Each example was evaluated by three different experts. 
 
 
+## Code
+### 1. Configuration 
+Openai model selection and directory arrangement can be done by "config.py" file.
+You should add your API KEY to the api-key.txt file.
+Embedding model in the RAG process can be modified by "pdf_processing.py" file.
+### 2. Main
+"dark_pattern_detection.py" is the main file, and target dark pattern category and its description should be updated accordingly.
+Classification of the given UI and explanation about the reasoning of the model will be stored in a .json file after running the main file.
