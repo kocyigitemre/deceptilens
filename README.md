@@ -21,3 +21,9 @@ Embedding model in the RAG process can be modified by "pdf_processing.py" file.
 ### 2. Main
 "dark_pattern_detection.py" is the main file, and target dark pattern category and its description should be updated accordingly.
 Classification of the given UI and explanation about the reasoning of the model will be stored in a .json file after running the main file.
+
+## Acknowledgement
+This work was funded as part of the Decepticon project Decepticon (grant no. IS/14717072) supported by the Luxembourg
+National Research Fund (FNR). It was also funded by REMEDIS project "National
+Fund for Scientific Research (FNRS)" and the PNRR/Next Generation EU project "Biorobotics Research and Innovation Engineering Facilities “IR0000036” – CUP J13C22000400007".
+We thank the dark pattern experts that participated in the study including Kerstin Bongard-Blanchy, Cristiana Teixeira Santos, Silvia De Conca, Estelle Harry, Gunes Acar, Marie Potel, Lorena Sanchez Chamorro, Thomas Mildner, Joanna Strycharz, and others who contributed their time and insights. A special thanks goes to Irina Carnat for our fruitful discussion on the application of the AI Act to this use case.
