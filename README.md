@@ -1,11 +1,12 @@
 # DeceptiLens
+Note: The repository will be updated soon. 
 ## Introduction
 In this project, we collected reported Dark Pattern / Deceptive Pattern (DP) screenshots from different sources, such as academic publications, reports and websites. 
-We propose "DeceptiLens" as a robust and transparent DP detection approach. We employ multimodal-LLM, specifically GPT-4o, and apply RAG to minimize incorrect outputs. DeceptiLens is not only for capturing DPs in the UI, but also providing explanation about the reasoning behind each identification process. We utilize prompting techniques, such as Chain-of-Thought (CoT), and instruct the model for a certain output structure. 
+We propose "DeceptiLens" as a robust and transparent DP detection approach. We employ multimodal-LLM, specifically GPT-4o, and apply RAG to minimize incorrect outputs. DeceptiLens is not only for capturing DPs in the UI, but also providing explanation about the reasoning behind each identification process. We utilize prompting techniques, such as Chain-of-Thought (CoT), and instruct the model for a certain output structure. Dark Pattern experts evaluated the AI-generated explanations in terms of "clarity", "correctness", "completeness" and "verifiability", in a 1-5 scale. The results will be presented at ACM FAccT 2025, and the paper link will shared soon.
 
 ## Datasets
 ### 1. Input data
-All of the collected data is available under the "data" folder.
+All of the collected data (a collection of screenshots) is available under the "data" folder.
 ### 2. Model's classification and explanations
 Classification of the input data with explanations is available under the "model-output" folder.
 ### 3. Experts' classification
